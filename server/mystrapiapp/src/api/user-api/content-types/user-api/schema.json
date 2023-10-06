@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "users_apis",
+  "info": {
+    "singularName": "user-api",
+    "pluralName": "users-apis",
+    "displayName": "User",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "username": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "password": {
+      "type": "password"
+    },
+    "Role": {
+      "type": "enumeration",
+      "enum": [
+        "Authenticated",
+        "Public"
+      ]
+    }
+  }
+}
